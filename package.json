@@ -1,5 +1,6 @@
 {
-  "name": "sd-0x-project-trybewallet",
+  "name": "redux-wallet",
+  "homepage": "http://carlospsvieira.github.io/redux-wallet",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -21,9 +22,9 @@
     "stylelint-order": "5.0.0"
   },
   "scripts": {
-    "cy": "env CY_CLI=true cypress run",
-    "cy:open": "cypress open --e2e --browser chrome",
     "start": "env ESLINT_NO_DEV_ERRORS=true react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -51,6 +52,7 @@
     "cypress": "10.4.0",
     "cypress-multi-reporters": "1.6.1",
     "eslint-config-trybe-frontend": "^1.3",
+    "gh-pages": "^4.0.0",
     "jest-localstorage-mock": "2.4.21",
     "mocha": "10.0.0",
     "mochawesome": "7.1.3",
