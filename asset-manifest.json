@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redux-wallet/static/css/main.19238806.css",
+    "main.js": "/redux-wallet/static/js/main.cec2ee66.js",
+    "index.html": "/redux-wallet/index.html",
+    "main.19238806.css.map": "/redux-wallet/static/css/main.19238806.css.map",
+    "main.cec2ee66.js.map": "/redux-wallet/static/js/main.cec2ee66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19238806.css",
+    "static/js/main.cec2ee66.js"
+  ]
+}
